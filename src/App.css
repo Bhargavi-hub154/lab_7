@@ -1,0 +1,141 @@
+/* Google Font Feel */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Sunrise Background */
+
+body{
+  min-height:100vh;
+  background: linear-gradient(
+    135deg,
+    #fff8dc,
+    #ffe066,
+    #ffd43b,
+    #ffc300
+  );
+  color:#333;
+}
+
+/* Navbar */
+
+nav{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  padding:20px;
+  background:rgba(255,255,255,0.25);
+  backdrop-filter: blur(8px);
+  border-bottom:1px solid rgba(255,255,255,0.4);
+}
+
+nav a{
+  text-decoration:none;
+  font-weight:600;
+  color:#5a3e00;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:#ff8800;
+  transform:scale(1.1);
+}
+
+/* Page Container */
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:40px;
+  text-align:center;
+}
+
+/* Headings */
+
+h1,h2{
+  margin-bottom:20px;
+  color:#6b4f00;
+}
+
+/* Buttons */
+
+button{
+  background:linear-gradient(135deg,#ffcc00,#ffb700);
+  border:none;
+  padding:10px 20px;
+  border-radius:8px;
+  font-weight:600;
+  cursor:pointer;
+  color:#5a3e00;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:translateY(-3px);
+  box-shadow:0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Product List */
+
+.product-item{
+  background:rgba(255,255,255,0.6);
+  margin:10px;
+  padding:15px;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+.product-item:hover{
+  background:white;
+  transform:scale(1.03);
+}
+
+/* Form Styling */
+
+form{
+  max-width:450px;
+  margin:auto;
+  background:rgba(255,255,255,0.8);
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Inputs */
+
+input, textarea{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border-radius:6px;
+  border:1px solid #ffd43b;
+  outline:none;
+  transition:0.2s;
+}
+
+input:focus, textarea:focus{
+  border-color:#ffae00;
+  box-shadow:0 0 5px rgba(255,174,0,0.5);
+}
+
+/* Error Messages */
+
+.error{
+  color:#d00000;
+  font-size:14px;
+  margin-bottom:10px;
+}
+
+/* Links */
+
+a{
+  color:#7a4e00;
+}
+
+a:hover{
+  color:#ff8800;
+}
